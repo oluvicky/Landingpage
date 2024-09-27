@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.sub-container1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1f2937;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 150px;
+
+}
+
+.hero-container-up {
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+
+.hero-container-up .left-hero{
+    font-weight: 900;
+    color: #F9FAF8;
+    font-size: 24px;
+    
+}
+
+.hero-container-up .right-hero{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+}
+
+.right-hero a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.hero-container-down {
+    color: #E5E7EB;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+
+}
+
+.hero-container-down .left {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+}
+
+.hero-container-down .left h1{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-container-down .left p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.hero-container-down .left button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    padding: 6px 0;
+    border: 0;
+    border-radius: 3px;
+    margin-top: 6px;
+    max-width: 100px;
+}
+
+
+.hero-container-down .right{
+    color: #1f2937;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+}
+
+
+.sub-container2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.sub-container2 .head {
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.sub-container2 .box-container {
+    height: 130px;
+    width: 700px;
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.sub-container2 .box-container .box {
+    height: fit-content;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-container2 .box-container .box .child {
+    border: 3px solid #3882F6;
+    border-radius: 5px;
+    height: 150px;
+    width: 150px;
+}
+
+.sub-container2 .box-container .box p {
+    font-weight: 400;
+    font-size: medium;   
+    text-align: center;
+}
+
+.sub-container3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1f2937;
+    background-color: #E5E7EB;
+    font-size: 30px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 30px;
+}
+
+.sub-container3 .quote{
+    font-style: italic;
+    
+}
+
+.sub-container3 .author{
+    font-weight: 600;
+    align-self: flex-end;
+   
+}
+
+.sub-container4 {
+    font-family: serif;
+    color: white;
+    background-color: white;
+    height: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sub-container4 .child {
+    background-color: #3882F6;
+    border-radius: 5px;
+    height: 100px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-wrap: wrap;
+}
+
+.sub-container4 .child p{
+    font-size: large;
+}
+
+.sub-container4 .child span{
+    font-weight: 700;
+}
+
+.sub-container4 .child button{
+    color: white;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #3882F6;
+    border-color: white;
+    padding: 6px 20px 6px 20px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #1f2937;
+    height: 40px;
+    color: white;
+    align-content: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
